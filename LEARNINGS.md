@@ -21,7 +21,7 @@
 
 # Node.js
 - environnement d'exécution (runtime) de JavaScript qui fonctionne en dehors d'un navigateur
-- donne accès au système (fs): fichiers, processus, ...
+- donne accès au système (fs = file system): fichiers, processus, ...
 - crée des serveurs (http)
 - programmé codé en javascript et C++ 
 - n'est pas un navigatuer, ni une émulation de navigateur
