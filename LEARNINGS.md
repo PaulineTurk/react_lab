@@ -19,6 +19,7 @@
     4. **{}** dans le HTML pour injecter du js
     5. auto-closing obligatoire pour toutes les balises, même si en HTML c'est inutile ex. <img/> pas <img>
 - tsx c'est pareil que jsx mais en TypeScript
+- Pour JSX, <ThisComponent /> est un composant React, mais <thiscomponent> est un tag HTML
 
 # Node.js
 - environnement d'exécution (runtime) de JavaScript qui fonctionne en dehors d'un navigateur
