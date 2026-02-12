@@ -1,7 +1,7 @@
 import './Board.css'
 import { useState } from 'react'
-import Square from './square/Square'
-import type { SquareValue } from './square/Square'
+import Square from '../square/Square'
+import type { SquareValue } from '../square/Square'
 
 export default function Board(){
     const [squares, setSquares] = useState<SquareValue[]>(Array(9).fill(null))
