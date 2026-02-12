@@ -1,0 +1,9 @@
+.board-row {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2px;
+}
+
+.status{
+  padding: 10px;
+}
