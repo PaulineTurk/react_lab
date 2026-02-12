@@ -74,3 +74,9 @@
 - utilisé en interne par React
 - ne remonte pas dans le DOM 
 - **key** permet d'identifier les éléments de manière unique dans un arbre de dépendance d'éléments et d'optimiser en conséquence le re-render/update/ création/ deletion des éléments
+
+
+# const
+- lorsqu'on défini un objet par const, on lui attirbue une valeur qui ne peut pas être changée
+- mais si const dépend d'un autre objet dont la valeur est modifiée, alors au prochain rerender, une nouvelle const est crée avec la nouvelle valeur calculée
+- utiliser **let** si besoin de réassignation
